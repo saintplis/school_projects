@@ -1,0 +1,7 @@
+nome = str(input('Nome: '))
+idade = int(input('Idade: '))
+rua = str(input('Rua: '))
+numero = int(input('Número: '))
+bairro = str(input('Bairro: '))
+descricao = str(input('Descrição: '))
+print('Nome: {}\nIdade: {}\nRua: {}\nNúmero: {}\nBairro: {}\nDescrição: {}'.format(nome,idade,rua,numero,bairro,descricao))
