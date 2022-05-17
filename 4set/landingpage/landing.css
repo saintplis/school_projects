@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background-color: white;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-imagem {
+    height: 72px;
+    width: 72px;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 60px;
+}
+.cabecalho-menu-item {
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+.desenvolvimento {
+    margin-bottom: 48px;
+    border-top: 0.4px solid black;
+}
+.desenvolvimento-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 65px;
+}
+.desenvolvimento-principal-estrutura {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.desenvolvimento-principal-estrutura-titulo {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: black;
+}
+.desenvolvimento-principal-estrutura-subtitulo {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+.desenvolvimento-principal-estrutura-botao {
+    background-color: rgb(14, 178, 232);
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgb(172, 171, 171);
+    border-radius: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+.desenvolvimento-principal-imagem {
+    height: 350px;
+}
+.desenvolvimento-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 130px;
+}
+
+.desenvolvimento-secundario-titulo {
+    border-top: 0.4px solid rgb(58, 57, 57);
+    padding-top: 50px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 15px;
+}
+.desenvolvimento-secundario-item {
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(63, 60, 60);
+    font-weight: 300;
+    font-size: 18px;
+}
+.rodape-cor {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(14, 178, 232);
+}
